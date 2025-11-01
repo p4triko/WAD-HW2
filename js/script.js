@@ -65,11 +65,6 @@ fetch("data/posts.json")
 
     })
     .catch(error => console.error("Error fetching JSON data:", error));
-  .then((response) => response.json())
-  .then((json) => {
-    console.log(json);
-  })
-  .catch((error) => console.error("Error fetching JSON data:", error));
 
 // Load navbar
 document.addEventListener("DOMContentLoaded", () => {
