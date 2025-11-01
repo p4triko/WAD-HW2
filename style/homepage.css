@@ -50,13 +50,13 @@ article {
 }
 
 footer {
-    width: 100%;
-    background-color: #777777;
-    height: 6rem;
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  background-color: #777777;
+  height: 6rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 footer p {
