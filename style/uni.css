@@ -1,35 +1,51 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
 
 .navbar {
-    background-color: rgb(178, 178, 178);
-    border-radius: 5px;
-    padding: 15px 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  background-color: rgb(178, 178, 178);
+  border-radius: 5px;
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.navbar a{
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    font-size: 20px;
-    margin-right: 20px;
-    transition: 0.3s;
-    border-radius: 5px;
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 20px;
+  transition: 0.3s;
+  border-radius: 5px;
 }
 
-.navbar a:hover{
-    background-color: rgb(206, 206, 206);   
+.navbar a:hover {
+  background-color: rgb(206, 206, 206);
 }
 
-.profile-icon{
-    width: 50px;
-    height: 50px;
+.profile-icon {
+  width: 50px;
+  height: 50px;
+}
+
+#profile-menu {
+  position: absolute;
+  right: 35px;
+  top: 75px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding:12px;
+
+  gap: 4px;
+}
+
+.hidden {
+  display: none;
 }

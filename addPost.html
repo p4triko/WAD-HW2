@@ -1,35 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>addPost</title>
-    <link rel="stylesheet" href="style/addPost.css">
-    <link rel="stylesheet" href="style/uni.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-<nav class="navbar">
-    <div>
-        <a href="index.html">Home</a>
-    </div>
-    <a href="login.html">
-        <img src="style/img/profile_icon.svg" class="profile-icon" alt="Profile">
-    </a>
-</nav>
+    <link rel="stylesheet" href="style/addPost.css" />
+    <link rel="stylesheet" href="style/uni.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<main>
-    <form action="index.html">
-        <label for="postBody">Post body</label><br>
-        <textarea id="postBody" name="postBody" required placeholder="Your thoughts?"></textarea><br><br>
+  <body>
+    <div id="navbar-container"></div>
 
-        <label for="fileUpload">Select file</label><br>
-        <input type="file" id="fileUpload" name="fileUpload"><br><br>
+    <main>
+      <form action="index.html">
+        <label for="postBody">Post body</label><br />
+        <textarea
+          id="postBody"
+          name="postBody"
+          required
+          placeholder="Your thoughts?"
+        ></textarea
+        ><br /><br />
+
+        <label for="fileUpload">Select file</label><br />
+        <input type="file" id="fileUpload" name="fileUpload" /><br /><br />
 
         <button type="submit">Submit</button>
-    </form>
-</main>
-</body>
+      </form>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
 </html>
