@@ -26,7 +26,7 @@
         "date": "26.10.25",
         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "profile_image": "style/img/profile_icon.svg",
-        "content-image": "style/img/tartu2024.jpg"
+        "content_image": "style/img/tartu2024.jpg"
     },
     {
         "author": "Colm",
@@ -55,7 +55,7 @@
         "date": "01.09.25",
         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "profile_image": "style/img/profile_icon.svg",
-        "content-image": "style/img/tartu2024.jpg"
+        "content_image": "style/img/tartu2024.jpg"
     },
     {
         "author": "Albert",
@@ -63,7 +63,7 @@
         "date": "29.08.25",
         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "profile_image": "style/img/profile_icon.svg",
-        "content-image": "style/img/tartu2024.jpg"
+        "content_image": "style/img/tartu2024.jpg"
     },
     {
         "author": "Molly",
