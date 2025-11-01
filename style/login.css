@@ -1,0 +1,74 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-section {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    margin-top: 50px;  
+    background-color: rgb(231, 231, 231);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.login-section h3 {
+    margin-bottom: 15px;
+}
+
+.login-section h3 + p {
+    color: rgb(62, 147, 168);
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.login-section h3 + p:hover {
+    color: rgb(44, 104, 119);
+}
+
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.login-form > input {
+    width: 150px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.login-form > input + button {
+    width: 150px;
+    width: 100px;
+    background-color: #004080;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.15s;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.login-form > input + button:hover {
+    background-color: #003060;;
+}
+
+.login-form p {
+    color: rgb(62, 147, 168);
+    cursor: pointer;
+    text-align: center;
+}
+
+.login-form p:hover {
+    color: rgb(44, 104, 119);
+}
