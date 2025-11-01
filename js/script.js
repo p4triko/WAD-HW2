@@ -24,7 +24,7 @@ fetch("data/posts.json")
             author.innerText = json[i].author
             let postDate = document.createElement('p'); // datetime
             postDate.className = 'post-date'
-            postDate.innerText = json[i].date + " " + json[i].time
+            postDate.innerText = json[i].time + " " +  json[i].date
             header.appendChild(postImage);
             header.appendChild(author);
             header.appendChild(postDate);
