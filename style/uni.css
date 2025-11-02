@@ -46,6 +46,16 @@
   gap: 4px;
 }
 
+#profile-menu p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#profile-menu button{
+  cursor: pointer;
+  padding: 2px;
+}
+
 .hidden {
   display: none;
 }
