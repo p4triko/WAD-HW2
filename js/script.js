@@ -72,7 +72,7 @@ function createPosts(data) {
 document.addEventListener("DOMContentLoaded", () => {
   const navbarContainer = document.getElementById("navbar-container");
 
-  fetch("/navbar.html")
+  fetch("navbar.html")
     .then((response) => response.text())
     .then((html) => {
       navbarContainer.innerHTML = html;
