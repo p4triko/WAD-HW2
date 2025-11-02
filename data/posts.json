@@ -1,75 +1,75 @@
 [
-    {
-        "author": "Martin",
-        "time": "15:26",
-        "date": "30.09.25",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "profile_image": "style/img/profile_icon.svg"
-    },
-    {
-        "author": "Arthur",
-        "time": "08:35",
-        "date": "26.10.25",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "profile_image": "style/img/profile_icon.svg"
-    },
-    {
-        "author": "Dutch",
-        "time": "20:15",
-        "date": "15.07.25",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "profile_image": "style/img/profile_icon.svg"
-    },
-    {
-        "author": "Lenny",
-        "time": "10:37",
-        "date": "26.10.25",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "profile_image": "style/img/profile_icon.svg",
-        "content_image": "style/img/tartu2024.jpg"
-    },
-    {
-        "author": "Colm",
-        "time": "12:57",
-        "date": "20.07.25",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "profile_image": "style/img/profile_icon.svg"
-    },
-    {
-        "author": "Norben",
-        "time": "16:02",
-        "date": "02.06.25",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "profile_image": "style/img/profile_icon.svg"
-    },
-    {
-        "author": "Carl",
-        "time": "14:15",
-        "date": "30.06.25",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "profile_image": "style/img/profile_icon.svg"
-    },
-    {
-        "author": "Cristo",
-        "time": "17:34",
-        "date": "01.09.25",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "profile_image": "style/img/profile_icon.svg",
-        "content_image": "style/img/tartu2024.jpg"
-    },
-    {
-        "author": "Albert",
-        "time": "21:40",
-        "date": "29.08.25",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "profile_image": "style/img/profile_icon.svg",
-        "content_image": "style/img/tartu2024.jpg"
-    },
-    {
-        "author": "Molly",
-        "time": "23:59",
-        "date": "10.10.25",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "profile_image": "style/img/profile_icon.svg"
-    }
+  {
+    "author": "Sadie",
+    "time": "15:26",
+    "date": "30.09.25",
+    "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+    "profile_image": "style/img/women-profile.svg"
+  },
+  {
+    "author": "Arthur",
+    "time": "08:35",
+    "date": "26.10.25",
+    "content": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+    "profile_image": "style/img/men-profile.svg"
+  },
+  {
+    "author": "Dutch",
+    "time": "20:15",
+    "date": "15.07.25",
+    "content": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+    "profile_image": "style/img/men-profile.svg"
+  },
+  {
+    "author": "Lenny",
+    "time": "10:37",
+    "date": "26.10.25",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "profile_image": "style/img/men-profile.svg",
+    "content_image": "style/img/drink.jpg"
+  },
+  {
+    "author": "Colm",
+    "time": "12:57",
+    "date": "20.07.25",
+    "content": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+    "profile_image": "style/img/men-profile.svg"
+  },
+  {
+    "author": "Norben",
+    "time": "16:02",
+    "date": "02.06.25",
+    "content": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.",
+    "profile_image": "style/img/men-profile.svg"
+  },
+  {
+    "author": "Carl",
+    "time": "14:15",
+    "date": "30.06.25",
+    "content": "Donec mollis hendrerit risus.",
+    "profile_image": "style/img/men-profile.svg"
+  },
+  {
+    "author": "Cristo",
+    "time": "17:34",
+    "date": "01.09.25",
+    "content": "Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque.",
+    "profile_image": "style/img/men-profile.svg",
+    "content_image": "style/img/forest.jpg"
+  },
+  {
+    "author": "Albert",
+    "time": "21:40",
+    "date": "29.08.25",
+    "content": "Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa.",
+    "profile_image": "style/img/men-profile.svg",
+    "content_image": "style/img/tartu2024.jpg"
+  },
+  {
+    "author": "Molly",
+    "time": "23:59",
+    "date": "10.10.25",
+    "content": "Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit.",
+    "profile_image": "style/img/women-profile.svg"
+  }
 ]
