@@ -1,16 +1,25 @@
-// fetch("https://api.jsonbin.io/v3/b/690323f7d0ea881f40c6c044")
-//     .then(response => response.json())
-//     .then(json => console.log(json))
-//     .catch(error => console.error("Error fetching JSON data:", error));
-
-fetch("data/posts.json")
+fetch("https://api.jsonbin.io/v3/b/690323f7d0ea881f40c6c044")
     .then(response => response.json())
     .then(json => {
-        console.log(json)
+        console.log(json.record)
+        createPosts(json.record);
+    })
+    .catch(error => console.error("Error fetching JSON data:", error));
 
+// fetch("data/posts.json")
+//     .then(response => response.json())
+//     .then(json => {
+//         console.log(json)
+//         createPosts(json);
+//     })
+//     .catch(error => console.error("Error fetching JSON data:", error));
+
+  
+function createPosts(data) {
+  
         let output = document.getElementById('content')
 
-        for (let i = 0; i < json.length; i++){
+        for (let i = 0; i < data.length; i++){
             let post = document.createElement('article');
 
             //creating header for post
@@ -18,13 +27,13 @@ fetch("data/posts.json")
             header.className='post-header';
             let postImage = document.createElement('img'); // profile icon
             postImage.className = 'post-profile-image';
-            postImage.src = json[i].profile_image;
+            postImage.src = data[i].profile_image;
             let author = document.createElement('p') // author
             author.className = 'post-author';
-            author.innerText = json[i].author
+            author.innerText = data[i].author
             let postDate = document.createElement('p'); // datetime
             postDate.className = 'post-date'
-            postDate.innerText = json[i].time + " " +  json[i].date
+            postDate.innerText = data[i].time + " " +  data[i].date
             header.appendChild(postImage);
             header.appendChild(author);
             header.appendChild(postDate);
@@ -34,9 +43,9 @@ fetch("data/posts.json")
             let body = document.createElement('div'); // div
             body.className = 'post-body';
             try {
-                if (json[i].content_image) { // if exists
+                if (data[i].content_image) { // if exists
                     let contentImage = document.createElement('img') // post content image
-                    contentImage.src = json[i].content_image;
+                    contentImage.src = data[i].content_image;
                     contentImage.className = 'post-content-picture'
                     body.appendChild(contentImage)
                 }
@@ -45,7 +54,7 @@ fetch("data/posts.json")
             };
             let contentText = document.createElement('h2'); // post content text
             contentText.className = 'post-h2'
-            contentText.innerHTML = json[i].content;
+            contentText.innerHTML = data[i].content;
             body.appendChild(contentText)
             post.appendChild(body)
 
@@ -60,11 +69,7 @@ fetch("data/posts.json")
 
             output.appendChild(post)
         }
-
-
-
-    })
-    .catch(error => console.error("Error fetching JSON data:", error));
+}
 
 // Load navbar
 document.addEventListener("DOMContentLoaded", () => {
