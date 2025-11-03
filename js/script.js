@@ -67,26 +67,34 @@ function createPosts(data) {
     output.appendChild(post);
   }
 }
+// (Some functionality created with the help of ChatGPT)
+// Loading the navbar
+document.addEventListener("DOMContentLoaded", function () {
+  var navbarContainer = document.getElementById("navbar-container");
 
-// Load navbar
-document.addEventListener("DOMContentLoaded", () => {
-  const navbarContainer = document.getElementById("navbar-container");
-
-  fetch("navbar.html")
-    .then((response) => response.text())
-    .then((html) => {
+//Fetch the navbar HTML file
+  fetch("/navbar.html")
+    .then(function (response) { return response.text(); })
+    .then(function (html) {
       navbarContainer.innerHTML = html;
 
-      const profileButton = navbarContainer.querySelector("#profile-button");
-      const profileMenu = navbarContainer.querySelector("#profile-menu");
-      const logoutButton = navbarContainer.querySelector("#logout-button");
+// Find elements by their IDs
+      var profileButton = navbarContainer.querySelector("#profile-button");
+      var profileMenu = navbarContainer.querySelector("#profile-menu");
+      var logoutButton = navbarContainer.querySelector("#logout-button");
 
-      profileButton.onclick = (event) => {
+//Add event listner to profile button
+      profileButton.onclick = function (event) {
         event.preventDefault();
         profileMenu.classList.toggle("hidden");
       };
 
-      logoutButton.onclick = () => alert("Logging out...");
+//Add event listener to logout button
+      logoutButton.onclick = function () {
+        alert("Logging out...");
+      };
     })
-    .catch((error) => console.error("Navbar load error:", error));
+    .catch(function (error) {
+      console.error("Navbar load error:", error);
+    });
 });
